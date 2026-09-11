@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>new-pokémon-form</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<div class="container">
+<header>
+	<h1><img src="images/pokemon.jpg" alt="Pokémon logo" width= "450" height="150" class="pokemon-img"></img></h1>
+</header>
+
+<nav> 	
+	<a href="index.html">Home</a>
+	<a href="details.html">Details</a>
+	<a href="about.html">About</a>
+    <a href="new-character-form.html">Add a new Pokémon</a>
+</nav>
+
+<body>
+    <div class="form-wrapper">
+        <div class="form-card">
+
+            <center><p style="font-size: 24px; font-weight: bold;"><u>Add a new Pokémon </u></p></center>
+
+    <form>
+
+        <div class="form-group">
+            <label for="name">Pokémon Name *</label>
+
+            <input type="text" id="name" placeholder="e.g., Pikachu">
+
+            <small>The name of the Pokémon</small>
+        </div>
+
+
+        <div class="form-group">
+            <label for="Region">Pokémon Region *</label>
+
+            <input type="text" id="Region" placeholder="e.g., Kanto ">
+
+            <small>What region is this Pokémon from?</small>
+        </div>
+
+        <div class="form-group">
+            <label for="type">Pokémon Type *</label>
+
+            <select id="type">
+                <option>-- Select a type --</option>
+                <option>Normal</option>
+                <option>Fire</option>
+                <option>Water</option>
+                <option>Grass</option>
+                <option>Electric</option>
+                <option>Ice</option>
+                <option>Fighting</option>
+                <option>Poison</option>
+                <option>Ground</option>
+                <option>Flying</option>
+                <option>Psychic</option>
+                <option>Bug</option>
+                <option>Rock</option>
+                <option>Ghost</option>
+                <option>Dragon</option>
+                <option>Dark</option>
+                <option>Steel</option>
+                <option>Fairy</option>
+
+            </select>
+
+            <small>What type is this Pokémon?</small>
+        </div>
+
+
+        <div class="form-group">
+            <label for="Evolution">Evolution level *</label>
+
+            <select id="Evolution">
+                <option>-- Select a level range --</option>
+                <option>This Pokémon does not evolve</option>
+                <option>0-10</option>
+                <option>11-20</option>
+                <option>21-30</option>
+                <option>31-40</option>
+                <option>41-50</option>
+                <option>51-60</option>
+                <option>61-70</option>
+            </select>
+
+            <small>
+                At what level does this Pokémon evolve?
+            </small>
+        </div>
+
+
+        <div class="form-group">
+            <label for="image">Image URL *</label>
+
+            <input type="url" id="image" placeholder="https://example.com/Pokémon.jpg">
+
+            <small>
+                Link to a Pokémon image (must be a valid URL)
+            </small>
+        </div>
+
+
+        <div class="form-group">
+            <label for="Poké-description">Short Description *</label>
+
+            <textarea id="Poké-description" placeholder="Describe the Pokémon in 1-2 sentences..."> </textarea>
+
+            <small>
+                A brief summary of the Pokémon (100-200 characters)
+            </small>
+        </div>
+
+
+        <div class="form-group">
+            <label for="weight">Pokémon Weight *</label>
+
+            <input type="text" id="weight" placeholder="e.g., Cosmoem weighs 999.9 kg (2,204.4 lbs)">
+
+            <small>
+                What is the weight of this Pokémon?
+            </small>
+        </div>
+
+
+        <div class="form-group">
+            <label for="height">Pokémon Height *</label>
+
+            <input type="text" id="height" placeholder="e.g., Exeggutor stands 6 feet, 7 inches tall">
+
+            <small>
+                How tall is this Pokémon?
+            </small>
+        </div>
+
+
+        <div class="buttons">
+
+            <button type="submit" class="add-btn">
+                Add Character
+            </button>
+
+            <button type="button" class="cancel-btn">
+                Cancel
+            </button>
+        </div>
+    </div>
+    </form>
+</div>
+</body>
+</div>
+
+<footer><strong>© 2026 Pokémon Character Gallery. Created as an educational project.</strong></footer>
+</div>
+</html>
